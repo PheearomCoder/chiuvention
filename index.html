@@ -15,6 +15,8 @@
       <link rel="stylesheet" href="src/assets/css/responsive.css">
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
       <link rel="shortcut icon" href="src/assets/images/chiuvention-icon.jpeg" type="image/x-icon">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://cdn.tailwindcss.com"></script>
 
    </head>
    <!-- body -->
@@ -25,7 +27,7 @@
       </div> -->
       <!-- end loader -->
       <!-- header -->
-      <div class="header">
+      <!-- <div class="header">
          <div class="container-fluid">
             <div class="row d_flex">
                <div class=" col-md-1 col-sm-3 col logo_section">
@@ -74,170 +76,149 @@
                </div>
             </div>
          </div>
-      </div>
+      </div> -->
 
-      <div class="full_bg">
-         <div class="slider_main">
-            <div class="container-fluid">
-               <div class="row">
-                  <div class="col-md-12">
-                     <!-- carousel code -->
-                     <div id="carouselExampleIndicators" class="carousel slide">
-                        <ol class="carousel-indicators">
-                           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner mt-5">
-                           <!-- first slide -->
-                           <div class="carousel-item active">
-                              <div class="carousel-caption relative">
-                                 <div class="row d_flex">
-                                    <div  class="col-md-5">
-                                       <div class="board">
-                                          <h3>
-                                             THE DIGITAL FUTURE OF TEXTILE TESTING <br>
-                                          </h3>
-                                       </div>
-                                       
-                                    </div>
-                                    <div class="col-md-7">
-                                       <div class="banner_img">
-                                          <figure><img class="img_responsive" src="src/assets/images/slide-main.png"></figure>
-                                       </div>
-                                    </div>
-                                    <div class="link_btn">
-                                    <a class="read_more" href="Javascript:void(0)">Read More   <span></span></a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- second slide -->
-                           <div class="carousel-item">
-                              <div class="carousel-caption relative">
-                                 <div class="row d_flex">
-                                    <div  class="col-md-5">
-                                       <div class="board">
-                                          <!-- <i><img src="src/assets/images/top_icon.png" alt="#"/></i> -->
-                                          <h3>
-                                             THE DIGITAL FUTURE OF<br> TEXTILE TESTING
-                                          </h3>
-                                          <div class="link_btn">
-                                             <a class="read_more" href="Javascript:void(0)">Read More   <span></span></a>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-7">
-                                       <div class="banner_img">
-                                          <figure><img class="img_responsive" src="src/assets/images/slide-main.png"></figure>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <!-- third slide-->
-                           <div class="carousel-item">
-                              <div class="carousel-caption relative">
-                                 <div class="row d_flex">
-                                    <div  class="col-md-5">
-                                       <div class="board">
-                                          <!-- <i><img src="src/assets/images/top_icon.png" alt="#"/></i> -->
-                                          <h3>
-                                             THE DIGITAL FUTURE OF<br> TEXTILE TESTING
-                                          </h3>
-                                          <div class="link_btn">
-                                             <a class="read_more" href="Javascript:void(0)">Read More   <span></span></a>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="col-md-7">
-                                       <div class="banner_img">
-                                          <figure><img class="img_responsive" src="src/assets/images/slide-main.png"></figure>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <!-- controls -->
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
+        <nav class="fixed top-0 w-full z-50 bg-white shadow-lg transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex items-center">
+          <div class="text-2xl font-bold text-orange-600" style="color: #EF7722;">ChiuVention</div>
+        </div>
+
+        <div class="hidden md:block">
+          <div class="ml-10 flex items-baseline space-x-8">
+            <a href="#home" class="text-gray-700 hover:text-orange-600 transition-colors">Home</a>
+            <a href="#about" class="text-gray-700 hover:text-orange-600 transition-colors">About</a>
+            <a href="#products" class="text-gray-700 hover:text-orange-600 transition-colors">Products</a>
+            <a href="#contact" class="text-gray-700 hover:text-orange-600 transition-colors">Contact</a>
+          </div>
+        </div>
+
+        <div class="md:hidden">
+          <!-- Static menu icon (menu closed) -->
+          <button class="text-gray-700 hover:text-orange-600">
+            <!-- Menu icon SVG -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
       </div>
+    </div>
+  </nav>
+<!-- Hero Section -->
+  <section id="home" class="pt-16" style="background: linear-gradient(135deg, #FEF7ED, #FED7AA);">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
+            The Digital Future of 
+            <span class="text-orange-600" style="color: #EF7722;"> Textile Testing</span>
+          </h1>
+          <p class="text-xl text-gray-600 mb-8">
+            Smart textile testing instruments and solutions designed in Germany, 
+            making textile testing transparent, faster and more accurate.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <button class="text-white px-8 py-3 rounded-lg transition-colors flex items-center justify-center bg-[#EF7722] hover:bg-[#D97706]">
+              <!-- Play icon SVG -->
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M14.752 11.168l-6.518-3.75A1 1 0 007 8.25v7.5a1 1 0 001.234.97l6.518-1.875a1 1 0 000-1.82z" />
+              </svg>
+              Watch Demo
+            </button>
+            <button class="text-[#EF7722] px-8 py-3 rounded-lg transition-colors border border-[#EF7722] hover:bg-[#FEF7ED]">
+              Learn More
+            </button>
+          </div>
+        </div>
+        <div class="relative">
+          <img 
+            src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/f54a1cef-4f0c-4e98-8f7b-c32b22fb9ed4.png" 
+            alt="Modern textile testing laboratory with advanced ChiuVention smart instruments and digital displays" 
+            class="rounded-lg shadow-2xl"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
    
    <!-- Why Chiuvention -->
    <div class="page">
-    <div class="container">
-      <!-- LEFT SIDE -->
-      <div class="section-left">
-        <h1><span class="highlight">Why</span> ChiuVention</h1>
-        <h2>SmarTexLab</h2>
-        <p>
-          Designed in Germany, ChiuVention has developed a series of smart test instruments by combining 
-          cutting-edge RFID, visual inspection, and IoT technologies with AI algorithms.
-        </p>
-        <p>
-          Meanwhile, SmarTexLab, a smart textile lab management system built by ChiuVention under the 
-          "lean manufacturing concept" is connected with our smart instruments, thus forms a real smart laboratory 
-          with IoT technology. SmarTexLab and instruments are also connected with factory ERP or laboratory LIMS 
-          to achieve a fully digitalized testing and production.
-        </p>
-        <p><strong>ChiuVention makes textile testing transparent, faster and more accurate!</strong></p>
+  <div class="container mx-auto px-4 py-8 flex flex-col md:flex-row gap-8">
+    <!-- LEFT SIDE -->
+    <div class="section-left flex-1 space-y-6">
+      <h1 class="text-4xl font-bold">
+        <span style="color:#EF7722;">Why</span> ChiuVention
+      </h1>
+      <h2 class="text-2xl font-semibold" style="color:#EF7722;">SmarTexLab</h2>
+      <p class="text-gray-700">
+        Designed in Germany, ChiuVention has developed a series of smart test instruments by combining
+        cutting-edge RFID, visual inspection, and IoT technologies with AI algorithms.
+      </p>
+      <p class="text-gray-700">
+        Meanwhile, SmarTexLab, a smart textile lab management system built by ChiuVention under the
+        "lean manufacturing concept" is connected with our smart instruments, thus forms a real smart laboratory
+        with IoT technology. SmarTexLab and instruments are also connected with factory ERP or laboratory LIMS
+        to achieve a fully digitalized testing and production.
+      </p>
+      <p class="font-semibold text-gray-900">
+        ChiuVention makes textile testing transparent, faster and more accurate!
+      </p>
 
-        <div class="qr-code">
-          <img src="src/assets/images/qr_code.webp" alt="SmarTexLab Android App QR">
-          <p>SmarTexLab (Android Apps)</p>
-        </div>
-
-        <h2 class="highlight">What is Important</h2>
-        <h3>Our Mission</h3>
-        <p>The digital future of textile testing</p>
-
-        <h3>Our Vision</h3>
-        <p>To be the global leader in smart textile instruments</p>
-
-        <h3>Our Values</h3>
-        <ul class="values">
-          <li>Customer-centered</li>
-          <li>Fighter-oriented</li>
-          <li>Honest and trustworthy</li>
-          <li>Open and Innovative</li>
-        </ul>
-
+      <div class="qr-code flex flex-col items-center space-y-2">
+        <img src="src/assets/images/qr_code.webp" alt="SmarTexLab Android App QR" class="w-32 h-32 object-contain" />
+        <p class="text-center text-gray-600">SmarTexLab (Android Apps)</p>
       </div>
 
-      <!-- RIGHT SIDE -->
-      <div class="section-right">
-        <div class="info-box">
-          <h3>30% Faster</h3>
-          <p>
-            Sample information is typed into the system and test requirements are selected, the related QR codes are generated;
-            The smart cutter sweeps the codes and cuts the sample at once;
-            The experimenter then installs the sample, and the system starts automatically.
-          </p>
-          <p>
-            All data will be uploaded into SmarTexLab. Reports are generated and accessible via smartphones or computers, 
-            reducing lab testing time by about 30%.
-          </p>
-        </div>
+      <h2 class="text-3xl font-semibold" style="color:#EF7722;">What is Important</h2>
 
-        <div class="info-box">
-          <h3>20% More Reliable</h3>
-          <p>
-            Reliable and easy-to-use smart instruments improve test reliability by about 20%.
-            Identifying samples by scanning, cutting intelligently, selecting programs automatically, and AI-powered 
-            machine vision ensure less manual errors and more reliable test results.
-          </p>
-        </div>
+      <h3 class="text-xl font-semibold" style="color:#191061;">Our Mission</h3>
+      <p class="text-gray-700">The digital future of textile testing</p>
 
-        <!-- <div class="phone-img">
-          <img src="src/assets/images/Hydrostatic-Head-Tester.webp" alt="SmarTexLab App">
-        </div> -->
-      </div>
+      <h3 class="text-xl font-semibold" style="color:#191061;">Our Vision</h3>
+      <p class="text-gray-700">To be the global leader in smart textile instruments</p>
+
+      <h3 class="text-xl font-semibold" style="color:#191061;">Our Values</h3>
+      <ul class="list-disc list-inside space-y-1 text-gray-700">
+        <!-- <li>Customer-centered</li>
+        <li>Fighter-oriented</li>
+        <li>Honest and trustworthy</li>
+        <li>Open and Innovative</li> -->
+      </ul>
     </div>
-   </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="section-right flex-1 flex flex-col gap-6">
+      <div class="info-box bg-gray-50 p-6 rounded-lg shadow">
+        <h3 class="text-2xl font-semibold mb-2" style="color:#EF7722;">30% Faster</h3>
+        <p class="text-gray-700 mb-2">
+          Sample information is typed into the system and test requirements are selected, the related QR codes are generated;
+          The smart cutter sweeps the codes and cuts the sample at once;
+          The experimenter then installs the sample, and the system starts automatically.
+        </p>
+        <p class="text-gray-700">
+          All data will be uploaded into SmarTexLab. Reports are generated and accessible via smartphones or computers,
+          reducing lab testing time by about 30%.
+        </p>
+      </div>
+
+      <div class="info-box bg-gray-50 p-6 rounded-lg shadow">
+        <h3 class="text-2xl font-semibold mb-2" style="color:#EF7722;">20% More Reliable</h3>
+        <p class="text-gray-700">
+          Reliable and easy-to-use smart instruments improve test reliability by about 20%.
+          Identifying samples by scanning, cutting intelligently, selecting programs automatically, and AI-powered
+          machine vision ensure less manual errors and more reliable test results.
+        </p>
+      </div>
+
+      <div class="phone-img">
+        <img src="src/assets/images/chiuvention-detail.jpg" alt="SmarTexLab App" class="w-full object-contain" />
+      </div>
+     
+    </div>
+  </div>
+</div>
     <!-- End Why Chiuvention -->
 
    <!-- What is imprtant -->
@@ -247,15 +228,15 @@
       <div class="shop">
          <div class="container-fluid">
             <div class="row d_flex d_grid">
-               <div class="col-md-7 d-flex justify-content-center align-item-center">
-                 <img src="src/assets/images/Hydrostatic-Head-Tester.webp"alt="">
-               </div>
                <div class="col-md-5 order_1_mobile">
                   <div class="titlepage text_align_left ">
-                     <h2>Quality is our <br>Culture</h2>
+                     <h2 style="color: #EF7722;">Quality is our Culture</h2>
                      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterationThere are many variatioThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alterationThere are many variationsns
                      </p>
                   </div>
+               </div>
+                <div class="col-md-7 d-flex justify-content-center align-item-center">
+                 <img src="src/assets/images/Hydrostatic-Head-Tester.webp"alt="">
                </div>
             </div>
          </div>
@@ -263,26 +244,44 @@
    <!-- End quality product -->
 
    <!-- About Chuivention -->
-      <div class="shop">
+      <div class="">
          <div class="container-fluid">
-            <div class="row d_flex d_grid">
-               <div class="col-md-7 d-flex justify-content-center align-item-center">
-                 <img src="src/assets/images/AirFicient-Air-Permeability-Tester-3-2048x1864.webp" alt="">
-               </div>
-               <div class="col-md-5 order_1_mobile">
+               <div class="col-md-12 order_1_mobile">
                   <div class="titlepage text_align_left ">
-                     <h2>About Chuivention</h2>
-                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterationThere are many variatioThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alterationThere are many variationsns
-                     </p>
+                     <h2 style="color: #EF7722;">About Chuivention</h2>
+                     <p>
+                        ChiuVention is registered in Europe and the United States , and is designed in Germany. ChiuVention is
+                        developed from TESTEX founded in 2010, headquartered in Dongguan, China. We specialize in textile
+                        footwear and apparel testing instruments.
+                     </p><br>
+                     <p>
+                        In 2020, our brand was upgraded comprehensively to ChiuVention, and realized the global launch of the
+                        new brand at the ITMA 2023, Milan, Italy, the world's most influential textile and garment technology
+                        exhibition. At ITMA 2023, a series of ChiuVention revolutionary and innovative instruments such as the
+                        SmartShrink Shrinkage Rate Tester, the SmartFill Liquid Filling Machine, and our SmarTexLab system
+                        gained a great deal of attention from the industry's benchmark brands, such as Adidas and Decathlon, as
+                        well as the major academic and standards organizations. ChiuVention has been recognized widely since
+                        its launch.
+                     </p><br>
+                     <p>
+                        ChiuVention provides smart textile testing instruments and solutions for 42 countries and regions
+                        worldwide. We have been serving third party testing organizations such as BV, SGS, Intertek and sports
+                        and fashion brands such as NIKE, Adidas, Anta, Decathlon, etc. With customer-centered belief, and the
+                        mission of leading the digital future of textile testing, ChiuVention is committed to become a global
+                        leader in smart textile instruments.
+                        TEST SMART NOW!
+                     </p><br>
                   </div>
                </div>
-            </div>
+               <div class="qr-code flex flex-col items-center">
+                  <img src="src/assets/images/qr_code.webp" alt="SmarTexLab Android App QR" class="w-32 h-32 object-contain" />
+               </div>
          </div>
       </div>
       <!-- End About Chuivention -->
 
-      <!-- Language Switch Button moved to header -->
-         <!--Contents  -->
+      
+      <!--Contents  -->
       <div class="class">
          <div class="container">
             <div class="row">
@@ -388,14 +387,26 @@
          </div>
       </div>
       <!-- end our contents -->
-      <!-- about -->
+
+      <!-- about smart textlab-->
+       
       <div class="about">
          <div class="container-fluid">
             <div class="row d_flex">
                <div class="col-md-6">
                   <div class="titlepage text_align_left">
-                     <h2>SmartTextLab</h2>
-                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterationThere are many variatioThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alterationThere are many variationsns
+                     <h2>SmartShrink</h2>
+                     <p>SmartShrink Shrinkage Rate Tester determines multiple shrinkage rate test results in 5 seconds for
+                           fabrics after washing, steaming, and dry-cleaning.
+                           SmartShrink takes a picture of a fabric sample by using a camera equipped on the top, automatically
+                           measuring the distances between the marked dots, and calculates the test results by the patented
+                           vision inspection algorithm of ChiuVention. The test results will be real-time shared with the IoT-
+                           connected SmarTexLab app installed on the computer and smartphone.
+                           SmartShrink automatically measures fabric shrinkage and calculates the test results, avoiding
+                           manual errors and making the test more accurate and reliable; It automatically saves the test data
+                           and sample photos, and can share and send the test results in real-time, making the test more
+                           transparent and trustworthy; The whole process of the test has been reduced from 6 minutes to only
+                           5 seconds, making the test more rapid and reducing the cost by more than 90%.
                      </p>
                      <div class="link_btn">
                         <a class="read_more" href="./pages/about.html">Read More</a>
@@ -407,6 +418,7 @@
                      <figure><img src="src/assets/images/smart-textile-lab.webp" alt="#"/></figure>
                   </div>
                </div>
+               
             </div>
             <div class="row d_flex mt-5">
                <div class="col-md-6">
@@ -685,47 +697,26 @@
          <div class="footer">
             <div class="container">
                <div class="row">
-                  <div class="col-md-4 ">
+                  <div class="col-md-3 ">
                      <div class="infoma">
                         <h3>Contact Us</h3>
                         <ul class="conta">
                            <li><i class="fa fa-map-marker" aria-hidden="true"></i>Locations 
                            </li>
-                           <li><i class="fa fa-phone" aria-hidden="true"></i>Call +855 17274378</li>
-                           <li> <i class="fa fa-envelope" aria-hidden="true"></i><a href="Javascript:void(0)">phearomkey4545@gmail.com</a></li>
+                           <li><i class="fa fa-phone" aria-hidden="true"></i>Call +855 17 9090 855</li>
+                           <li> <i class="fa fa-envelope" aria-hidden="true"></i><a href="Javascript:void(0)">chiuVention.company@gmail.com</a></li>
                         </ul>
                      </div>
                   </div>
                   <div class="col-md-8">
                      <div class="row border_left">
-                        <div class="col-md-12">
-                           <div class="infoma">
-                              <h3>Newsletter</h3>
-                              <form class="form_subscri">
-                                 <div class="row">
-                                    <div class="col-md-12">
-                                    </div>
-                                    <div class="col-md-4">
-                                       <input class="newsl" placeholder="Enter your email" type="text" name="Enter your email">
-                                    </div>
-                                    <div class="col-md-4">
-                                       <input class="newsl" placeholder="Enter your email" type="text" name="Enter your email">
-                                    </div>
-                                    <div class="col-md-4">
-                                       <button class="subsci_btn">subscribe</button>
-                                    </div>
-                                 </div>
-                              </form>
-                           </div>
-                        </div>
                         <div class="col-md-9">
                            <div class="infoma">
                               <h3>Useful Link</h3>
                               <ul class="fullink">
                                  <li><a href="index.html">Home</a></li>
                                  <li><a href="./pages/about.html">About</a></li>
-                                 <li><a href="./pages/skating.html">Skating</a></li>
-                                 <li><a href="./pages/shop.html">Shop</a></li>
+                                 <li><a href="./pages/skating.html">Service</a></li>
                                  <li><a href="./pages/contact.html">Contact Us</a></li>
                               </ul>
                            </div>
@@ -735,7 +726,6 @@
                               <ul class="social_icon">
                                  <li><a href="Javascript:void(0)"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                  <li><a href="Javascript:void(0)"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                 <li><a href="Javascript:void(0)"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
                                  <li><a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                               </ul>
                            </div>
