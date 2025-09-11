@@ -78,34 +78,40 @@
          </div>
       </div> -->
 
-        <nav class="fixed top-0 w-full z-50 bg-white shadow-lg transition-all duration-300">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex justify-between items-center h-16">
-        <div class="flex items-center">
-          <div class="text-2xl font-bold text-orange-600" style="color: #EF7722;">ChiuVention</div>
-        </div>
+   <nav class="fixed top-0 w-full z-50 bg-white shadow-lg transition-all duration-300">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16">
+      <div class="flex items-center">
+        <div class="text-2xl font-bold text-orange-600" style="color: #EF7722;">ChiuVention</div>
+      </div>
 
-        <div class="hidden md:block">
-          <div class="ml-10 flex items-baseline space-x-8">
-            <a href="#home" class="text-gray-700 hover:text-orange-600 transition-colors">Home</a>
-            <a href="#about" class="text-gray-700 hover:text-orange-600 transition-colors">About</a>
-            <a href="#products" class="text-gray-700 hover:text-orange-600 transition-colors">Products</a>
-            <a href="#contact" class="text-gray-700 hover:text-orange-600 transition-colors">Contact</a>
-          </div>
-        </div>
-
-        <div class="md:hidden">
-          <!-- Static menu icon (menu closed) -->
-          <button class="text-gray-700 hover:text-orange-600">
-            <!-- Menu icon SVG -->
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
-          </button>
+      <div class="hidden md:block">
+        <div class="ml-10 flex items-baseline space-x-8">
+          <a href="#home" class="text-gray-700 hover:text-orange-600 transition-colors">Home</a>
+          <a href="#about" class="text-gray-700 hover:text-orange-600 transition-colors">About</a>
+          <a href="#products" class="text-gray-700 hover:text-orange-600 transition-colors">Products</a>
+          <a href="#contact" class="text-gray-700 hover:text-orange-600 transition-colors">Contact</a>
         </div>
       </div>
+
+      <!-- Language Selector Buttons -->
+      <div class="flex items-center gap-2 ml-4">
+        <button id="btn-en" class="px-3 py-1 rounded border border-orange-500 text-orange-600 hover:bg-orange-50 transition-colors text-sm font-medium focus:outline-none">English</button>
+        <button id="btn-km" class="px-3 py-1 rounded border border-orange-500 text-orange-600 hover:bg-orange-50 transition-colors text-sm font-medium focus:outline-none">ភាសាខ្មែរ</button>
+      </div>
+
+      <div class="md:hidden">
+        <!-- Static menu icon (menu closed) -->
+        <button class="text-gray-700 hover:text-orange-600">
+          <!-- Menu icon SVG -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
     </div>
-  </nav>
+  </div>
+</nav>
 <!-- Hero Section -->
   <section id="home" class="pt-16" style="background: linear-gradient(135deg, #FEF7ED, #FED7AA);">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
@@ -144,7 +150,7 @@
   </section>
    
    <!-- Why Chiuvention -->
-   <div class="page">
+<div class="page">
   <div class="container mx-auto px-4 py-8 flex flex-col md:flex-row gap-8">
     <!-- LEFT SIDE -->
     <div class="section-left flex-1 space-y-6">
@@ -237,10 +243,10 @@
       <div class="phone-img">
         <img src="src/assets/images/chiuvention-detail.jpg" alt="SmarTexLab App" class="w-full object-contain" />
       </div>
-     
     </div>
   </div>
 </div>
+
     <!-- End Why Chiuvention -->
 
    <!-- What is imprtant -->
@@ -253,7 +259,33 @@
                <div class="col-md-5 order_1_mobile">
                   <div class="titlepage text_align_left ">
                      <h2 style="color: #EF7722;">Quality is our Culture</h2>
-                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterationThere are many variatioThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alterationThere are many variationsns
+                     <p>
+                        <strong>Strictly meet standards</strong><br>
+                         All data for each instrument meet the standard parameters.
+                     </p>
+                     <p>
+                        <strong>Consistency with international third party laboratories</strong><br>
+                        All test data are comparable to the test results obtained by
+                        well-known international third party laboratories.                     
+                     </p>
+                     <p>
+                        <strong>High repeatability</strong><br>
+                        The same set of samples, the same machine, after multiple
+                        tests, the results are consistent                     
+                     </p>
+                     <p>
+                         <strong>High reproducibilit</strong><br>
+                        The same set of samples, different machines of the same
+                        model, after multiple tests, the results are consistent.           
+                     </p>
+                     <p>
+                        <strong>Longer service life</strong><br>
+                        For all the machines manufactured by ChiuVention, before
+                        mass production, prototypes are made and required to pass
+                        the strict Reliability Test, i.e. tested under challenging
+                        environments such as high and low temperature, high
+                        speed and high load, and etc., to ensure a sufficiently long
+                        expected service life.       
                      </p>
                   </div>
                </div>
@@ -301,6 +333,14 @@
          </div>
       </div>
       <!-- End About Chuivention -->
+       <div class="sponsor">
+            <img src="src/assets/images/youtube-icon.png" alt="ISO9001 - Certified by SGS">
+            <span style="font-weight:500; color:#1a253c; font-size:1.1rem;">ISO9001-<br>Certified by SGS</span>
+            <img src="src/assets/images/alibaba-icon.png" alt="National High-Tech Enterprise">
+            <span style="font-weight:500; color:#1a253c; font-size:1.1rem;">National<br>High-Tech Enterprise</span>
+            <img src="src/assets/images/aliexpress-icon.png" alt="Member of ASTM">
+            <span style="font-weight:500; color:#1a253c; font-size:1.1rem;">Member of ASTM</span>
+       </div>
 
       
       <!--Contents  -->
@@ -445,7 +485,7 @@
                </div>
                <div class="col-md-6">
                   <div class="about_img text_align_center">
-                     <figure><img src="src/assets/images/smart-textile-lab.webp" alt="#"/></figure>
+                     <figure><img src="src/assets/images/SmartShrink-01.png" alt="#"/></figure>
                   </div>
                </div>
             </div>
@@ -462,7 +502,7 @@
                </div>
                <div class="col-md-6">
                   <div class="about_img text_align_center">
-                     <figure><img src="src/assets/images/Hydrostatic-Head-Tester.webp" alt="#"/></figure>
+                     <figure><img src="src/assets/images/SmartCut.webp" alt="#"/></figure>
                   </div>
                </div>
             </div>
@@ -479,7 +519,7 @@
                </div>
                <div class="col-md-6">
                   <div class="about_img text_align_center">
-                     <figure><img src="src/assets/images/Hydrostatic-Head-Tester.webp" alt="#"/></figure>
+                     <figure><img src="src/assets/images/proPress.png" alt="#"/></figure>
                   </div>
                </div>
             </div>
@@ -496,14 +536,14 @@
                </div>
                <div class="col-md-6">
                   <div class="about_img text_align_center">
-                     <figure><img src="src/assets/images/Hydrostatic-Head-Tester.webp" alt="#"/></figure>
+                     <figure><img src="src/assets/images/smartindale.webp" alt="#"/></figure>
                   </div>
                </div>
             </div>
             <div class="row d_flex mt-5">
                <div class="col-md-6">
                   <div class="titlepage text_align_left">
-                     <h2>/Unidale</h2>
+                     <h2>Unidale</h2>
                      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alterationThere are many variatioThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alterationThere are many variationsns
                      </p>
                      <div class="link_btn">
@@ -513,7 +553,7 @@
                </div>
                <div class="col-md-6">
                   <div class="about_img text_align_center">
-                     <figure><img src="src/assets/images/Hydrostatic-Head-Tester.webp" alt="#"/></figure>
+                     <figure><img src="src/assets/images/Unidale-01.jpg" alt="#"/></figure>
                   </div>
                </div>
             </div>
@@ -530,7 +570,7 @@
                </div>
                <div class="col-md-6">
                   <div class="about_img text_align_center">
-                     <figure><img src="src/assets/images/Hydrostatic-Head-Tester.webp" alt="#"/></figure>
+                     <figure><img src="src/assets/images/AirFicient .webp" alt="#"/></figure>
                   </div>
                </div>
             </div>
@@ -547,7 +587,7 @@
                </div>
                <div class="col-md-6">
                   <div class="about_img text_align_center">
-                     <figure><img src="src/assets/images/Hydrostatic-Head-Tester.webp" alt="#"/></figure>
+                     <figure><img src="src/assets/images/HydroBurst.jpg" alt="#"/></figure>
                   </div>
                </div>
             </div>
@@ -564,7 +604,7 @@
                </div>
                <div class="col-md-6">
                   <div class="about_img text_align_center">
-                     <figure><img src="src/assets/images/Hydrostatic-Head-Tester.webp" alt="#"/></figure>
+                     <figure><img src="src/assets/images/ElmenGuide-Elmendorf.webp" alt="#"/></figure>
                   </div>
                </div>
             </div>
@@ -581,7 +621,7 @@
                </div>
                <div class="col-md-6">
                   <div class="about_img text_align_center">
-                     <figure><img src="src/assets/images/Hydrostatic-Head-Tester.webp" alt="#"/></figure>
+                     <figure><img src="src/assets/images/SmartDry.webp" alt="#"/></figure>
                   </div>
                </div>
             </div>
@@ -598,7 +638,7 @@
                </div>
                <div class="col-md-6">
                   <div class="about_img text_align_center">
-                     <figure><img src="src/assets/images/Hydrostatic-Head-Tester.webp" alt="#"/></figure>
+                     <figure><img src="src/assets/images/SmartFill.png" alt="#"/></figure>
                   </div>
                </div>
             </div>
@@ -615,7 +655,7 @@
                </div>
                <div class="col-md-6">
                   <div class="about_img text_align_center">
-                     <figure><img src="src/assets/images/Hydrostatic-Head-Tester.webp" alt="#"/></figure>
+                     <figure><img src="src/assets/images/WashTrue.webp" alt="#"/></figure>
                   </div>
                </div>
             </div>
@@ -632,7 +672,7 @@
                </div>
                <div class="col-md-6">
                   <div class="about_img text_align_center">
-                     <figure><img src="src/assets/images/Hydrostatic-Head-Tester.webp" alt="#"/></figure>
+                     <figure><img src="src/assets/images/SmartPull.png" alt="#"/></figure>
                   </div>
                </div>
             </div>
@@ -649,7 +689,7 @@
                </div>
                <div class="col-md-6">
                   <div class="about_img text_align_center">
-                     <figure><img src="src/assets/images/Hydrostatic-Head-Tester.webp" alt="#"/></figure>
+                     <figure><img src="src/assets/images/AtmoExplorer-01.png" alt="#"/></figure>
                   </div>
                </div>
             </div>
@@ -666,7 +706,7 @@
                </div>
                <div class="col-md-6">
                   <div class="about_img text_align_center">
-                     <figure><img src="src/assets/images/Hydrostatic-Head-Tester.webp" alt="#"/></figure>
+                     <figure><img src="src/assets/images/InnoFlex.png" alt="#"/></figure>
                   </div>
                </div>
             </div>
@@ -683,7 +723,7 @@
                </div>
                <div class="col-md-6">
                   <div class="about_img text_align_center">
-                     <figure><img src="src/assets/images/Hydrostatic-Head-Tester.webp" alt="#"/></figure>
+                     <figure><img src="src/assets/images/InfraDye.webp" alt="#"/></figure>
                   </div>
                </div>
             </div>
@@ -890,5 +930,83 @@
       <script>
          AOS.init();
       </script>
+      <script>
+  // Language dictionary for all main text (already defined above)
+  // ...existing langDict and currentLang...
+
+  // Language switch logic for navbar buttons
+  document.getElementById('btn-en').onclick = function() {
+    if (currentLang !== 'en') {
+      currentLang = 'en';
+      switchLanguage('en');
+      translateAllParagraphs('en');
+    }
+  };
+  document.getElementById('btn-km').onclick = function() {
+    if (currentLang !== 'km') {
+      currentLang = 'km';
+      switchLanguage('km');
+      translateAllParagraphs('km');
+    }
+  };
+
+  function switchLanguage(lang) {
+    const dict = langDict[lang];
+    // Navigation (Tailwind navbar)
+    const navLinks = document.querySelectorAll('.ml-10.flex.items-baseline a');
+    navLinks.forEach((el, i) => { if(dict.nav[i]) el.textContent = dict.nav[i]; });
+    // Contents section
+    const cTitle = document.getElementById('contents-title');
+    if(cTitle) cTitle.textContent = dict.contentsTitle;
+    const cDesc = document.getElementById('contents-desc');
+    if(cDesc) cDesc.textContent = dict.contentsDesc;
+    // Boxes
+    document.querySelectorAll('.box-title').forEach((el, i) => {
+      el.textContent = dict.boxes[i] || '';
+    });
+    // Paragraphs
+    const allP = document.querySelectorAll('p');
+    dict.paragraphs.forEach((txt, i) => {
+      if(allP[i]) allP[i].textContent = txt;
+    });
+    // Read More buttons
+    document.querySelectorAll('.read_more').forEach(el => {
+      el.textContent = dict.readMore;
+    });
+    // About section
+    const aboutTitle = document.querySelector('.shop .titlepage h2');
+    if(aboutTitle) aboutTitle.textContent = dict.aboutTitle;
+    const aboutDesc = document.querySelector('.shop .titlepage p');
+    if(aboutDesc) aboutDesc.textContent = dict.aboutDesc;
+    // Quality section
+    const qualityTitle = document.querySelectorAll('.shop .titlepage h2')[0];
+    if(qualityTitle) qualityTitle.textContent = dict.qualityTitle;
+    const qualityDesc = document.querySelectorAll('.shop .titlepage p')[0];
+    if(qualityDesc) qualityDesc.textContent = dict.qualityDesc;
+    // Footer
+    const newsletter = document.querySelector('h3:contains("Newsletter")');
+    if(newsletter) newsletter.textContent = dict.newsletter;
+    document.querySelectorAll('.subsci_btn').forEach(el => { el.textContent = dict.subscribe; });
+    const contact = document.querySelector('h3:contains("Contact Us")');
+    if(contact) contact.textContent = dict.contact;
+    const usefulLink = document.querySelector('h3:contains("Useful Link")');
+    if(usefulLink) usefulLink.textContent = dict.usefulLink;
+    // Footer links
+    const footerLinks = document.querySelectorAll('.fullink li a');
+    if(footerLinks[0]) footerLinks[0].textContent = dict.home;
+    if(footerLinks[1]) footerLinks[1].textContent = dict.about;
+    if(footerLinks[2]) footerLinks[2].textContent = dict.skating;
+    if(footerLinks[3]) footerLinks[3].textContent = dict.shop;
+    if(footerLinks[4]) footerLinks[4].textContent = dict.contactUs;
+  }
+
+  function translateAllParagraphs(lang) {
+    const dict = langDict[lang];
+    const allP = document.querySelectorAll('p');
+    dict.paragraphs.forEach((txt, i) => {
+      if (allP[i]) allP[i].textContent = txt;
+    });
+  }
+</script>
    </body>
 </html>

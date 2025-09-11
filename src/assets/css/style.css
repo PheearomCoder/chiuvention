@@ -532,6 +532,28 @@ ul.email li i {
       margin-top: 15px;
     }
 /* End Why */
+/* sponsor */
+.sponsor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 2rem 0 2.5rem 0;
+  background: #fff;
+  flex-wrap: wrap;
+}
+.sponsor img {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 2px 8px rgba(0,0,0,0.04));
+  margin: 0 1.5rem;
+  transition: transform 0.2s;
+}
+.sponsor img:hover {
+  transform: scale(1.07);
+}
+/* end sponsor */
 
 
 /** our content **/
